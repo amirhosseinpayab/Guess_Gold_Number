@@ -12,8 +12,3 @@ for i in range(3):
         print("It is lower than gold number !")
     elif guess > gold_number:
         print("It is highter than gold number !")
-    
-    
-
-
-
