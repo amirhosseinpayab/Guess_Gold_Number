@@ -9,7 +9,7 @@ for i in range(3):
         print(f"You fond the gold number :)")
         break
     elif guess < gold_number:
-        print(f"It is lower than gold number! {3-(i+1)} times you can guess.")
+        print(f"It is lower than gold number! You have a {3-(i+1)} chance.")
     elif guess > gold_number:
-        print(f"It is highter than gold number! {3-(i+1)} times you can guess.")
+        print(f"It is highter than gold number! You have a {3-(i+1)} chance.")
 print(f"The Gold number was : {gold_number}")
